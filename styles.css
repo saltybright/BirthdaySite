@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: 'Vollkorn SC', serif;
+    background-image: url("images/IMG_0275.PNG")no-repeat 0 50%;
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.5)), url("images/IMG_0275.PNG");
+    color: #ffffff;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 5px 1px pink;
+    color: black;
+}
+
+#bff-img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    color: white;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px;
+    margin: 20px;
+}
+
+.gift-section {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/bow.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/5gp0j0CK2XJv3PjOB6/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/7WIuiuMtCmurEhfWLW/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/xwvT0qtK4FtgQ/giphy.gif");
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
